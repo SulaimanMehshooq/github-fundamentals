@@ -1,0 +1,18 @@
+         cd g_basics   - to nav
+mkdir docker_playground -  to create dir
+cd docker_playground - to nav
+touch docker-compose.yml  - to create file
+nano docker-compose.yml -  to edit file
+---right click---paste code---
+ctrl + O to save
+ctrl + x to exit
+cat docker-compose.yml - to verify
+docker compose up -d - to run docker
+docker images  - to check images
+docker ps - to check the running container
+cat /etc/*release* - to check ubuntu version
+
+docker exec -it 848ae0cc5689 bash - to get into docker container's bash/terminal
+docker exec -it ubuntu24 bash - enter container using name
+Best Regards
+Sihan
